@@ -1,0 +1,66 @@
+body {
+  background-color: rgb(21, 228, 150);
+}
+.Heading {
+  background-color: rgb(218, 227, 20);
+}
+.Para {
+  background-color: #14e3dc;
+}
+/* Dimensions */
+.box {
+  background-color: #8a14e3;
+  width: 200px;
+  height: 100px;
+  font-size: 30px;
+  border-radius:50px;
+  text-align: center;
+}
+.Heading {
+  width: 45%;
+}
+.Para {
+  width: 30%;
+  /* margin: 100px 300px 30px 50px; /*trb1 */
+  /* margin-left: 50px */
+  padding: 10%;
+}
+.Para {
+  width: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.Para {
+  text-align: center;
+}
+
+img{
+  width: 150px;
+  height: 150px;
+  border: 10px solid black;  
+  border-radius: 50%;
+}
+/* Display and Position */
+h3{
+    display: inline;
+}
+div{
+    width: 100px;
+    height: 100px;
+}
+.bbox1{
+    background-color: red;
+}
+.bbox2{
+    background-color: green;
+    position: absolute;
+}
+.bbox3{
+    background-color: blue;
+    position: relative;
+    bottom: -300px;
+    left: 50px; 
+    margin-block-start: 30px;
+}
