@@ -1,0 +1,215 @@
+/*Define the global or root variables */
+:root {
+  --primaryColor: #213555;
+  --backgroundColor: #f5efe7;
+  --primaryAccentColor: #4f709c;
+  --secondaryColor: #d8c4b6;
+  --whiteColor: white;
+  --blackColor: #222222;
+  --primaryFont: "Open Sans", sans-serif;
+  --navbarHeight: 3rem;
+  --cursiveFont: "Pacifico", cursive;
+}
+
+/* Main CSS */
+
+a {
+  text-decoration: none;
+  color: var(--primaryColor);
+}
+
+a:hover {
+  color: var(--primaryAccentColor);
+}
+
+body {
+  background-color: var(--backgroundColor);
+  color: var(--primaryColor);
+  font-family: var(--primaryFont);
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+/* Navigation Bar */
+.navigation {
+  background-color: var(--whiteColor);
+  height: var(--navbarHeight);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  padding-left: 20px;
+  width: 12rem;
+  align-items: center;
+  /* margin-right: 4rem; */
+}
+
+.logoImage {
+  padding: 8px;
+  height: 2rem;
+  /* float: left; */
+}
+
+.contactImage {
+  padding: 8px;
+  height: 2rem;
+}
+
+.menuItems {
+  flex-grow: 2;
+}
+
+.menuItem {
+  margin-left: 20px;
+}
+
+.question {
+  font-size: 6px;
+  margin-right: 20px;
+  border-top: 1px solid grey;
+}
+
+.no {
+  font-size: 7px;
+  margin-right: 20px;
+  text-align: center;
+  border-bottom: 1px solid grey;
+}
+
+/* Banner */
+.banner {
+  display: flex;
+  height: 450px;
+  background: linear-gradient(
+    135deg,
+    /* var(--secondaryColor),
+        var(--primaryAccentColor)
+        */
+      rgb(129, 244, 129),
+    rgb(202, 196, 196),
+    rgb(164, 164, 241),
+    rgb(202, 196, 196),
+    rgb(242, 242, 128)
+  );
+  /* background-color: var(--backgroundColor); */
+  filter: drop-shadow(0px 3px 4px grey);
+  justify-content: space-around;
+  align-items: center;
+}
+
+.bannerLeft {
+  position: relative;
+  top: 5px;
+  left: 30px;
+}
+
+.bannerImage {
+  position: relative;
+  bottom: 125px;
+  left: 40px;
+  height: 300px;
+  border-radius: 100%;
+}
+
+.greeting {
+  font-family: var(--cursiveFont);
+  font-size: 20px;
+}
+
+.title {
+  font-size: 40px;
+  color: black;
+  font-family: "Roboto", sans-serif;
+}
+
+.description {
+  margin: 30px 0px;
+  line-height: 2rem;
+  font-size: 20px;
+  color: black;
+}
+
+.titleSpan {
+  display: inline-block;
+  /* background-color: var(--primaryColor);
+    padding: 0.5rem;
+    margin: 5px 0px; */
+}
+
+.showCVButton {
+  background: #ff6527;
+
+  color: white;
+  padding: 10px 15px;
+  filter: drop-shadow(5px 5px 3px #ff9671);
+}
+
+.showCVButton:hover {
+  background: rgb(172, 58, 172);
+  color: white;
+  filter: drop-shadow(5px 5px 3px rgb(170, 56, 172));
+}
+
+/* Services Section */
+.services {
+  margin: 5rem;
+}
+
+.serviceText {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.textSubHeading {
+  color: var(--primaryAccentColor);
+  letter-spacing: 0.2rem;
+  color: orange;
+  font-size: 1rem;
+}
+
+.textHeading {
+  font-size: 2rem;
+  font-weight: bold;
+  color: black;
+  font-family: "Roboto", sans-serif;
+}
+
+.serviceCards {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.serviceCard {
+  border: 2px solid grey;
+  border-radius: 2px;
+  filter: drop-shadow(1px 1px 2px #aaaaaa);
+  padding: 40px;
+}
+
+.serviceCard:hover {
+  background-color: white;
+  filter: drop-shadow(3px 3px 8px white);
+  transform: scale(1.02);
+}
+
+.serviceIconDiv {
+  background-color: var(--primaryColor);
+  padding: 5px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.serviceIcon {
+  font-size: 3rem;
+  color: white;
+}
+
+.serviceTitle {
+  font-size: 1.5rem;
+  margin: 20px 0px;
+}
